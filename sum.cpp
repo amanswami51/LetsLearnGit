@@ -2,7 +2,9 @@
 using namespace std; 
 
 int main(){
-    int a =10, b=20;
+    int a,b;
+    std::cout<<"Enter two numbers: "<<endl;
+    std::cin>>a>>b;
     std::cout<<"The sum of two numbers is : "<< (a+b);
     return 0;
 }
